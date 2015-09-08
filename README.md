@@ -5,10 +5,11 @@
 $ sudo apt-get install build-essential libgtk2.0-dev
 
 ## Build
-gcc -shared -o libsublime-imfix.so sublime_imfix.c  `pkg-config --libs --cflags gtk+-2.0` -fPIC
+$ make sublime_imfix
 
 ## 使用该patch
-$ sudo cp libsublime-imfix.so /opt/sublime_text/
+$ make install
+<br>请依据实际的安装路径来对makefile进行相应的更改
 
 ## Sublime Text
 这是一个桌面快捷方式的例子，请依据实际的安装路径来进行相应的更改。
