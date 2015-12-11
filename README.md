@@ -1,4 +1,5 @@
-# sublime_imfix
+sublime_imfix
+=============
 修复sublime text下无法输入中文的问题
 
 ## 安装依赖包
